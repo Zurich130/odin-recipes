@@ -1,0 +1,55 @@
+body {
+    font-family: "Times New Roman", Times, serif, sans-serif;
+}
+
+.home-h1,
+.recipe-h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    padding: 30px;
+    background: #FFD580;
+    border: gray;
+    border-radius: 2rem;
+}
+
+.description {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.ingredients,
+.steps {
+    text-align: center;
+}
+
+.recipe {
+    padding: 2rem;
+}
+
+.recipe li {
+    margin-bottom: 0.5rem;
+}
+
+.container img {
+    border-radius: 2rem;
+}
+
+.home {
+    text-align: center;
+}
+
+.home-btn {
+    background: black;
+    color: #FFD580;
+    border-radius: 1rem;
+    border: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    margin-bottom: 2rem;
+}
